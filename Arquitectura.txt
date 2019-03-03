@@ -1,0 +1,7 @@
+
+El principal nicho de negocio de Datacredito es la recolección de información financiera de ciudadanos, teniendo en cuenta este contexto se realizan peticiones de PQR’S las cuales quedan almacenadas en el sistema de información documental
+Con base a lo anterior la Arquitectura se basa en servicios que dependiendo del tipo de petición se ejecutan ciertas acciones como guardar los documentos asociados a las PQR’S realizadas por los usuarios.
+
+De esta manera un usuario a través de la plataforma de DataCredito radica su PQR con la documentación solicitada posteriormente el según el tipo de petición realizada por el usuario se hace el llamado a los diferentes servicios para el almacenamiento, consulta o actualización de la información. En este caso la petición realizada establece comunicación con el gestor documental "Alfresco" quien se encarga de realizar el almacenamiento de los documentos en la Base de Datos Documental.
+
+La Arquitectura para el sistema de información propuesto es hibrido entre la arquitectura N-Capas y la arquitectura microservicios.
